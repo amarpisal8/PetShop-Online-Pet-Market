@@ -1,0 +1,125 @@
+.samcontainer{
+    /* flex-direction: column;
+    align-items: flex-start; */
+    margin-top: 30px;
+    column-count: 2;
+    column-rule-style: solid;
+    column-rule-color: rgb(50, 205, 197);
+}
+.box1{
+    height: auto;
+    width: auto;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.box1 img {
+    align-items: center;
+    height: 500px;
+    width: 360px;
+    box-shadow: 40px 25px 20px solid black;
+    border: 1px solid black;
+    border-radius: 30px;
+
+}
+.box1 img:hover {
+    border: 7px solid rgba(66, 153, 235, 0.082);
+    cursor: pointer;
+    
+}
+.box2 {
+    height: 500px;
+    width: auto;
+    align-content: flex-start;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.petname{
+    font-size: 50px;
+    color: black;
+}
+
+
+.samc{
+    column-count: 2;
+    margin-bottom: 10px;
+}
+.pet{
+    color: teal;
+}
+.prise{
+    color: rgb(0, 0, 0);
+}
+.owberdetail{
+    width: 450px;
+    border: 1px solid grey;
+   border-radius: 10px 0 10px 0;
+   margin: 5px;
+}
+
+.owner {
+    background-color: rgb(50, 205, 197);
+    color: black;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.288);
+    color: white;
+    font-style: italic;
+    font-weight: 100;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.last{
+    column-count: 2;
+    font-size: 30px;
+}
+
+.wish {
+    width: 220px;
+    height: 60px;
+    background-color: rgb(221, 217, 217);
+    color:rgb(0, 0, 0);
+    font-size: x-large;
+    font-weight: 400;
+    border: 3px 2px 3px 3px solid green red blue black;
+    box-sizing: content-box;
+    box-shadow: 4px 4px 4px rgb(160, 245, 205) ;
+    border-radius: 20px;
+}
+.wish:hover {
+    width: 220px;
+    height: 60px;
+    background-color: teal;
+    color: white;
+    font-size: x-large;
+    border: none;
+    box-sizing: content-box;
+    box-shadow: 4px 4px 4px black ;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.buy {
+    width: 220px;
+    height: 60px;
+    background-color: rgb(221, 217, 217);
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: x-large;
+    border: 3px 2px 3px 3px solid green red blue black;
+    box-sizing: content-box;
+    box-shadow: 4px 4px 4px rgb(160, 245, 205) ;
+    border-radius: 20px;
+}
+.buy:hover {
+    width: 220px;
+    height: 60px;
+    background-color: teal;
+    color: white;
+    font-size: x-large;
+    border: none;
+    box-sizing: content-box;
+    box-shadow: 4px 4px 4px black ;
+    border-radius: 20px;
+    cursor: pointer;
+}
